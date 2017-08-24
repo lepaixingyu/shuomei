@@ -1,0 +1,72 @@
+.box{
+	width: 100%;
+    height: auto;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-image: url('../img1/zhuce/beijingtu.png');/* (引入背景图片) */
+	background-size: 100% auto;/* （设置auto，保证背景图片不变形） */
+}
+header{
+	width: 100%;
+	height: .88rem;
+	background-color: red;
+	padding: 0 .24rem;
+	overflow: hidden;
+}
+.head-fanhui{
+	width: .44rem;
+	height: .44rem;
+	background-color: pink;
+	margin-top: .22rem;
+	float: left;
+}
+.head-zhongjian{
+	width: 1.9rem;
+	height: .51rem;
+	background-color: pink;
+	float: left;
+	margin-top: .185rem;
+	margin-left: 2.11rem;
+}
+#login{
+	width: 5.25rem;
+	height: 5.25rem;
+	background-color: yellow;
+	margin: 0 auto;
+	margin-top: 1.75rem;
+	border-radius: 0.08rem;/* (设置圆角像素） */
+	position: relative;
+	padding-top: .79rem;
+}
+.touxiang{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-color: red;
+	border-radius:50%;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top:-.775rem;
+	margin: auto;
+}
+.user-box{
+	width: 4.05rem;
+	height: .87rem;
+	background-color: green;
+	margin: 0 auto;
+}
+.user-bottom{
+	width: 100%;
+	height: .57rem;
+	background-color: blue;
+}
+.userName{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

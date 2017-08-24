@@ -1,0 +1,205 @@
+.box{
+	width: 100%;
+    height: auto;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-image: url('../img1/denglu/beijing.png');/* (引入背景图片) */
+	background-size: 100% auto;/* （设置auto，保证背景图片不变形） */
+}
+header{
+	width: 100%;
+	height: .88rem;
+	padding: 0 .24rem;
+	overflow: hidden;
+}
+.head-fanhui{
+	width: .44rem;
+	height: .44rem;
+	margin-top: .22rem;
+	float: left;
+}
+.head-zhongjian{
+	width: 1.9rem;
+	height: .51rem;
+	float: left;
+	margin-top: .185rem;
+	margin-left: 2.65rem;
+	font-size: .4rem;
+	font-family: "苹方","微软雅黑";
+	font-weight: 400;
+	color: #fff;
+}
+.head-right{
+	width: .86rem;
+	height: .46rem;
+	float: right;
+	margin-top: .23rem;
+	border-radius: .9rem;
+	border: .02rem solid #fff;
+
+}
+.head-right span{
+	display: block;
+	font-size: .3rem;
+	font-family: "苹方","微软雅黑";
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+.nei-touxiang{
+	width: 4.43rem;
+	height: .91rem;
+	margin: 0 auto;
+	margin-top: .69rem;
+}
+.toux-top{
+	width: 100%;
+	height: .32rem;
+
+}
+.nei-touxiang span{
+	display: block;
+	text-align: center;
+	font-size: .3rem;
+	font-family: "苹方","微软雅黑";
+	font-weight: 700;
+	color: #fff;
+	margin-top: .32rem;
+}
+.nei-yonghu{
+	width: 5.88em;
+	height: .91rem;
+	background-color: #100F18;
+	margin: 0 auto;
+	margin-top: .91rem;
+	border-radius: .9rem;
+	border: .03rem solid #44445A;
+
+}
+.yh-icon{
+	width: .71rem;
+	height: .72rem;
+	margin-top: .17rem;
+	margin-left: .21rem;
+	float: left;
+}
+.yh-shuru{
+	width: 4.5rem;
+	height: .56rem;
+	background-color: #100F18;
+	float: left;
+	margin-top: .17rem;
+}
+.userName{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	border:none;
+	color: #B8B8B9;
+	outline:none;/* (去除点击边框效果) */
+}
+.nei-mima{
+	width: 5.88em;
+	height: .91rem;
+	background-color: #100F18;
+	margin: 0 auto;
+	margin-top: .47rem;
+	border-radius: .9rem;
+	border: .03rem solid #44445A;
+}
+.yh-yanzheng{
+	width: 2rem;
+	height: .56rem;
+	background-color: #100F18;
+	float: left;
+	margin-top: .17rem;
+}
+.userName1{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	border:none;
+	color: #B8B8B9;
+	outline:none;
+}
+.nei-yanzheng{
+	width: 5.88em;
+	height: .91rem;
+	background-color: #100F18;
+	margin: 0 auto;
+	margin-top: .47rem;
+	border-radius: .9rem;
+	border: .03rem solid #44445A;
+}
+.fasong{
+	width: 1.5rem;
+	height: .4rem;
+	background-color: #E32020;
+	float: right;
+	margin-top: .25rem;
+	margin-right: .2rem;
+	border-radius: .9rem;
+}
+.fasong span{
+	font-size: .22rem;
+	display: block;
+	text-align: center;
+	font-family: "苹方","微软雅黑";
+	color: #fff;
+	font-weight: 300;
+}
+.queren{
+	display: block;
+	width: 5.74rem;
+	height: 1.03rem;
+	margin: 0 auto;
+	margin-top: .34rem;
+}
+.queren input{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size:.48rem; 
+	font-family: "苹方","微软雅黑";
+	color: #fff;
+	background-color: #E32020;
+	border: none;
+	outline: none;
+	border-radius: .9rem;
+}
+.disanfang{
+	width: 2.39rem;
+	height: .66rem;
+	margin: 0 auto;
+	margin-top: 1.17rem;
+
+}
+.disanfang-denglu{
+	width: 3.11rem;
+	height: .69rem;
+	margin: 0 auto;
+	margin-top: .7rem;
+}
+.denglu-qq{
+	width: .69rem;
+	height: .69rem;
+	float: left;
+}
+.denglu-weixin{
+	width: .69rem;
+	height: .69rem;
+	float: left;
+	margin-left: .52rem;
+}
+.denglu-weibo{
+	width: .69rem;
+	height: .69rem;
+	float: right;
+}

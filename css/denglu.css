@@ -1,0 +1,155 @@
+.box{
+	width: 100%;
+    height: auto;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-image: url('../img1/denglu/beijing.png');/* (引入背景图片) */
+	background-size: 100% auto;/* （设置auto，保证背景图片不变形） */
+}
+header{
+	width: 100%;
+	height: .88rem;
+	padding: 0 .24rem;
+	overflow: hidden;
+}
+.head-fanhui{
+	width: .44rem;
+	height: .44rem;
+	margin-top: .22rem;
+	float: left;
+}
+.head-zhongjian{
+	width: 1.9rem;
+	height: .51rem;
+	float: left;
+	margin-top: .185rem;
+	margin-left: 2.65rem;
+	font-size: .4rem;
+	font-family: "苹方","微软雅黑";
+	font-weight: 400;
+	color: #fff;
+}
+.nei-touxiang{
+	width: 1.59rem;
+	height: 1.59rem;
+	margin: 0 auto;
+	margin-top: 1.4rem;
+}
+.nei-yonghu{
+	width: 5.88em;
+	height: .91rem;
+	background-color: #100F18;
+	margin: 0 auto;
+	margin-top: .72rem;
+	border-radius: .9rem;
+	border: .03rem solid #44445A;
+
+}
+.yh-icon{
+	width: .71rem;
+	height: .72rem;
+	margin-top: .17rem;
+	margin-left: .21rem;
+	float: left;
+}
+.yh-shuru{
+	width: 4.5rem;
+	height: .56rem;
+	background-color: #100F18;
+	float: left;
+	margin-top: .17rem;
+}
+.userName{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	border:none;
+	color: #B8B8B9;
+	outline:none;/* (去除点击边框效果) */
+}
+.nei-mima{
+	width: 5.88em;
+	height: .91rem;
+	background-color: #100F18;
+	margin: 0 auto;
+	margin-top: .47rem;
+	border-radius: .9rem;
+	border: .03rem solid #44445A;
+}
+.jizhumima{
+	width: 5rem;
+	height: 0.3rem;
+
+	margin: 0 auto;
+	margin-top: .47rem;
+}
+.jizhu{
+	width: 1.59rem;
+	height: .26rem;
+	float: left;
+	font-size: .26rem;
+	font-family: "苹方","微软雅黑";
+	font-weight: 500;
+	color: #B8B8B9;
+}
+.wangji{
+	font-size: .22rem;
+	font-family: "苹方","微软雅黑";
+	font-weight: 800;
+	color: #E32020;
+	float: right;
+}
+.queren{
+	display: block;
+	width: 5.74rem;
+	height: 1.03rem;
+	margin: 0 auto;
+	margin-top: .34rem;
+}
+.queren input{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size:.48rem; 
+	font-family: "苹方","微软雅黑";
+	color: #fff;
+	background-color: #E32020;
+	border: none;
+	outline: none;
+	border-radius: .9rem;
+}
+.disanfang{
+	width: 2.39rem;
+	height: .66rem;
+	margin: 0 auto;
+	margin-top: 1.17rem;
+
+}
+.disanfang-denglu{
+	width: 3.11rem;
+	height: .69rem;
+	margin: 0 auto;
+	margin-top: .7rem;
+}
+.denglu-qq{
+	width: .69rem;
+	height: .69rem;
+	float: left;
+}
+.denglu-weixin{
+	width: .69rem;
+	height: .69rem;
+	float: left;
+	margin-left: .52rem;
+}
+.denglu-weibo{
+	width: .69rem;
+	height: .69rem;
+	float: right;
+}
